@@ -4,6 +4,7 @@ var2 = ", I'm MASQ."        # string
 var3 = 4                    # int
 var4 = 37.7                 # float
 var5 = complex(8, 2)        # complex
+var6 = True                 # boolean
 
 print(var1)         # print variable value
 
@@ -26,3 +27,6 @@ print("\n", type(list1))      # list (like JS array)
 print(type(t1))         # tuple (immutable array)
 
 print(type(d1))   # Dictionary (like JS Object)
+
+
+#$ Strings are immutable
