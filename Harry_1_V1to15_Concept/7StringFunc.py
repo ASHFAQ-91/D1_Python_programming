@@ -1,4 +1,4 @@
-# Count the string length.
+# String function in Python.
 name = "masq Ashfaq"
 xyz = "orion"
 
