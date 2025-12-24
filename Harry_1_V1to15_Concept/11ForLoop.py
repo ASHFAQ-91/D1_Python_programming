@@ -1,4 +1,4 @@
-# Types of Iteration/Loop.
+# Types of Iteration/Loop in Python.
 # 1. For Loop.
 # 2. While Loop.
 
