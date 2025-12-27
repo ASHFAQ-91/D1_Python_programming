@@ -4,6 +4,14 @@
 # 3. if-else-elif
 # 4. nested if-else-elif
 
+#$ nested-if-else
+grocery = ["Cadbury", "Dora-cake", 7, 91.2, True]
+if 7 in grocery:
+    print("Yes, 7 is present")
+    if "AS" in "MASQ":
+        print("YES, AS is Pesent")
+
+
 #$ if-else
 print("*****Car Eligibility*****".center(40))
 age = int(input("Enter your Age: "))
