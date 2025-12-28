@@ -11,9 +11,13 @@ print("Sorted list: ", numbers)                 #* It'll change the original lis
 numbers.reverse()
 print("Reverse variable list: ", numbers)       #* It'll change the original list.
 
-print("Index value is: ", numbers.index(40))    #$ index_func, it return the index of the first occurrence of the list items.
+print("Index value is: ", numbers.index(40))    #$ index_func, it return the INDEX of the first occurrence of the list items.
 
 print("Occurrence: ", numbers.count(30))        #$ count_func.
+
+num2 = numbers.copy()                           #$ copy_func.
+num2[1] = 0 
+print("Copy list: ", num2)
 
 
 print("\nMaximum value: ", max(numbers))        #$ max_func.
